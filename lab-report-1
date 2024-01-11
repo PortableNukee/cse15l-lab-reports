@@ -1,0 +1,12 @@
+#Remote Access & FileSystem
+This week we covered three terminal commands
+`cd` , `ls` & `cat`
+
+##The `cd` command
+**Run with no arguments**
+![Image](cd1.png)
+*working directory was `home/lecture1/`*
+When run with no arguments `cd` changed the working directory to `home/`. It moved one level outside the previous working directory
+This was not an error, although most programmers prefer using the command `cd..` for the same result
+
+
