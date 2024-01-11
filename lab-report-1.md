@@ -1,4 +1,4 @@
-# Remote Access & FileSystem <br>
+![image](https://github.com/PortableNukee/cse15l-lab-reports/assets/65773563/e4ba7e42-0f55-4ae8-aa96-d2aa6091fc0e)# Remote Access & FileSystem <br>
 This week we covered three terminal commands<br>
 `cd` , `ls` & `cat`<br>
 
@@ -10,20 +10,58 @@ When run with no arguments `cd` changed the working directory to `home/`. It mov
 This was not an error, although most programmers prefer using the command `cd..` for the same result<br>
 
 **Run with directory as argument**<br>
-![Image](cd2.png)
-*working directory was `home/`
-When run with `lecture1` (a directory) as an argument, the `cd` command changed the working directory to `home/lecture1`.
-This was not an error.
+![Image](cd2.png)<br>
+*working directory was `home/`<br>
+When run with `lecture1` (a directory) as an argument, the `cd` command changed the working directory to `home/lecture1`.<br>
+This was not an error.<br>
 
-**Run with file as argument**
-![Image](cd3.png)
-*working directory was `home/lecture1`*
-When run with `Hello.java` as an argument, the `cd` command printed text explaining that `Hello.java` was not a directory.
-This is an error as the `cd` printed an error message and did not change the working directory.
+**Run with file as argument**<br>
+![Image](cd3.png)<br>
+*working directory was `home/lecture1`*<br>
+When run with `Hello.java` as an argument, the `cd` command printed text explaining that `Hello.java` was not a directory.<br>
+This is an error as the `cd` printed an error message and did not change the working directory.<br>
 
-## The `ls` command
-**Run with no arguments**
-![Image](ls1.png)
-*working directory was `home/lecture1/`*
-When run with no argument the command printed text in the terminal of all of the file names in the directory and printed other folders in blue.
+## The `ls` command<br>
+**Run with no arguments**<br>
+![Image](ls1.png)<br>
+*working directory was `home/lecture1/`*<br>
+When run with no argument the command printed text in the terminal of all of the file names in the directory and printed other folders in blue.<br>
+This is not an error.<br>
+
+**Run with directory as argument**<br>
+![Image](ls2.png)<br>
+*working directory was `home/`<br>
+When run with `lecture1` (a directory) as an argument, the `ls` command printed all of the file names within the directory `home/lecture1` and made all folders blue. <br>
+This is not an error.<br>
+
+**Run with file as argument**<br>
+![Image](ls3.png)<br>
+*working directory was `home/lecture1`*<br>
+When run with `Hello.java` as an argument, the `ls` command printed `Hello.java` alone.<br>
+This could be considered an error as ls is generally used to list the contents of a directory, however, Hello.java is not.<br>
+
+## The `cat` command<br>
+**Run with no arguments**<br>
+![Image](cat1.png)<br>
+*working directory was `home/lecture1/`*<br>
+When run with no argument the command waits for user input in the terminal, and then repeats the string given by the user. This continues until `cat` is deliberately stopped by using `cmd+d`<br>
+This is not an error.<br>
+
+**Run with directory as argument**<br>
+![Image](cat2.png)<br>
+*working directory was `home/`<br>
+When run with `lecture1` (a directory) as an argument, the `cat` command printed text explaining that `lecture1/` was a directory. <br>
+This is an error as `cat` is used to read contents of files, however it can not for a directory .<br>
+
+**Run with file as argument**<br>
+![Image](cat3.png)<br>
+*working directory was `home/lecture1/messages`*<br>
+When run with `en-us.txt` as an argument, the `cat` command printed the contents of the `en-us.txt` file, which is "Hello World!".<br>
+This is not an error.<br>
+# Fin
+
+
+
+
+
 
