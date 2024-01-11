@@ -35,7 +35,7 @@ When run with `lecture1` (a directory) as an argument, the `ls` command printed 
 This is not an error.<br>
 
 **Run with file as argument**<br>
-![Image](ls3.png)<br>
+![Image](ls3point1.png)<br>
 *working directory was `home/lecture1`*<br>
 When run with `Hello.java` as an argument, the `ls` command printed `Hello.java` alone. However when run with the absolute path to `Hello.java` the command printed the path of the file.<br>
 This is not an error.<br>
