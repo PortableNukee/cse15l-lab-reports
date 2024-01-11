@@ -1,4 +1,4 @@
-![image](https://github.com/PortableNukee/cse15l-lab-reports/assets/65773563/e4ba7e42-0f55-4ae8-aa96-d2aa6091fc0e)# Remote Access & FileSystem <br>
+# Remote Access & FileSystem <br>
 This week we covered three terminal commands<br>
 `cd` , `ls` & `cat`<br>
 
