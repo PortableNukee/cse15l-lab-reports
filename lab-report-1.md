@@ -30,7 +30,7 @@ This is not an error.<br>
 
 **Run with directory as argument**<br>
 ![Image](ls2.png)<br>
-*working directory was `home/`<br>
+*working directory was `home/`*<br>
 When run with `lecture1` (a directory) as an argument, the `ls` command printed all of the file names within the directory `home/lecture1` and made all folders blue. <br>
 This is not an error.<br>
 
