@@ -1,4 +1,4 @@
-# Servers & SSH Keys <br>
+![image](https://github.com/PortableNukee/cse15l-lab-reports/assets/65773563/c962b28e-1369-4ccb-b858-511f619a1f24)# Servers & SSH Keys <br>
 This week we made web servers using Java & Created SSH keys to seamlessly SSH into school systems<br>
 
 
@@ -51,7 +51,7 @@ class ChatServer {
 <br>
 
 ![Image](example1.png) <br>
-The function ` public String handleRequest(URI url)` is called in this example.
+The function `public String handleRequest(URI url)` is called in this example.
 The relevant arguments in this method is the url field `https:localhost:8080/add-message?s=Hello!&user=Paz` <br>
 Relevant fields of the class is the main string, which in this example begins as an empty string. <br>
 From this specific request the value of the main string is changed. <br>
@@ -60,7 +60,7 @@ Main string becomes `"Paz: Hello!"`
 
 # Example 2:
 <br>![Image](example2.png)<br>
-The function ` public String handleRequest(URI url)` is called in this example.
+The function `public String handleRequest(URI url)` is called in this example.
 The relevant arguments in this method is the url field `https:localhost:8080/add-message?s=How are you?&user=Doe` <br>
 Relevant fields of the class is the main string, which in this example begins as `"John: Hi! \n"`. <br>
 From this specific request the value of the main string is changed. <br>
