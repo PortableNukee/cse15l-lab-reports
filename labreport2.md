@@ -1,4 +1,4 @@
-![image](https://github.com/PortableNukee/cse15l-lab-reports/assets/65773563/c962b28e-1369-4ccb-b858-511f619a1f24)# Servers & SSH Keys <br>
+# Servers & SSH Keys <br>
 This week we made web servers using Java & Created SSH keys to seamlessly SSH into school systems<br>
 
 
